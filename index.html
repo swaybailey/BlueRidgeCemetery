@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Woodbridge Cemetery - Blue Ridge, Texas</title>
+  <title>Blue Ridge Cemetery - Blue Ridge, Texas</title>
   <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
   <style>
     body {
@@ -13,17 +13,19 @@
       color: #333;
     }
     header {
-      background: url('https://source.unsplash.com/1600x500/?cemetery,trees') no-repeat center center;
+      background: url('banner.jpg') no-repeat center center;
       background-size: cover;
-      padding: 100px 20px;
+      height: 200px;
       text-align: center;
       color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
     }
     header h1 {
-      font-size: 3em;
+      font-size: 2.5em;
       margin: 0;
-      background-color: rgba(0,0,0,0.5);
-      display: inline-block;
+      background-color: rgba(0, 0, 0, 0.5);
       padding: 10px 20px;
       border-radius: 8px;
     }
@@ -39,50 +41,74 @@
       border-bottom: 2px solid #ccc;
       padding-bottom: 5px;
     }
+    .photo-gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 15px;
+    }
+    .photo-gallery img {
+      width: 100%;
+      border-radius: 8px;
+    }
     footer {
       text-align: center;
       padding: 20px;
       background: #ddd;
       color: #444;
     }
+    a {
+      color: #0066cc;
+    }
   </style>
 </head>
 <body>
   <header>
-    <h1>Woodbridge Cemetery</h1>
-    <p>Blue Ridge, Texas</p>
+    <h1>Blue Ridge Cemetery</h1>
   </header>
 
   <main>
     <section>
       <h2>About the Cemetery</h2>
       <p>
-        Woodbridge Cemetery is a peaceful and historic resting place nestled in the countryside of Blue Ridge, Texas.
-        With roots going back to the 1800s, the grounds are maintained with care and reverence by the local community.
+        Blue Ridge Cemetery is a peaceful and historic resting place nestled in the countryside of Blue Ridge, Texas.
+        With roots going back generations, the grounds are maintained with care and reverence by the local community.
       </p>
     </section>
 
     <section>
+      <h2>Photo Gallery</h2>
+      <div class="photo-gallery">
+        <img src="photo1.jpg" alt="Cemetery photo 1">
+        <img src="photo2.jpg" alt="Cemetery photo 2">
+        <img src="photo3.jpg" alt="Cemetery photo 3">
+        <img src="photo4.jpg" alt="Cemetery photo 4">
+      </div>
+    </section>
+
+    <section>
       <h2>Location</h2>
-      <p>Located off County Road 123, just minutes from downtown Blue Ridge, TX. Easily accessible and open to visitors during daylight hours.</p>
+      <p>Located just outside Blue Ridge, TX, off County Road 123. Open to visitors during daylight hours.</p>
     </section>
 
     <section>
       <h2>Burial Information</h2>
       <p>
-        Burial plots are available upon request. Please contact the cemetery board or local city office for more information on availability, policies, and services.
+        Burial plots may be available. Contact the cemetery administrator for more information on availability and guidelines.
       </p>
     </section>
 
     <section>
       <h2>Contact</h2>
-      <p>Email: info@woodbridgecemetery.org</p>
-      <p>Phone: (XXX) XXX-XXXX</p>
+      <p>Robert Todd</p>
+      <p>Phone: (972) 977-4725</p>
+      <p>
+        Facebook: <a href="https://www.facebook.com/share/16FrHLWRWu/" target="_blank">Blue Ridge Cemetery on Facebook</a>
+      </p>
     </section>
   </main>
 
   <footer>
-    &copy; 2025 Woodbridge Cemetery Association
+    &copy; 2025 Blue Ridge Cemetery Association
   </footer>
 </body>
 </html>
