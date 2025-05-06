@@ -2,110 +2,113 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Blue Ridge Cemetery - Blue Ridge, Texas</title>
-  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Blue Ridge Cemetery</title>
   <style>
     body {
-      font-family: 'Merriweather', serif;
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
       margin: 0;
-      background: #f8f8f8;
+      padding: 0;
+      background-color: #f9f9f9;
       color: #333;
     }
     header {
-      background: url('banner.jpg') no-repeat center center;
-      background-size: cover;
-      height: 200px;
+      background-color: #2d4a26;
+      color: #fff;
+      padding: 20px;
       text-align: center;
-      color: white;
-      display: flex;
-      align-items: center;
-      justify-content: center;
     }
-    header h1 {
-      font-size: 2.5em;
-      margin: 0;
-      background-color: rgba(0, 0, 0, 0.5);
-      padding: 10px 20px;
-      border-radius: 8px;
+    nav {
+      background: #eee;
+      padding: 10px;
+      text-align: center;
     }
-    main {
-      max-width: 900px;
-      margin: 40px auto;
-      padding: 0 20px;
+    nav a {
+      margin: 0 10px;
+      color: #2d4a26;
+      text-decoration: none;
+      font-weight: bold;
     }
     section {
-      margin-bottom: 40px;
+      padding: 20px;
+      max-width: 800px;
+      margin: auto;
     }
     h2 {
-      border-bottom: 2px solid #ccc;
-      padding-bottom: 5px;
+      color: #2d4a26;
+    }
+    blockquote {
+      margin: 20px 0;
+      padding: 15px;
+      background-color: #f1f1f1;
+      border-left: 5px solid #2d4a26;
     }
     footer {
       text-align: center;
       padding: 20px;
-      background: #ddd;
-      color: #444;
-    }
-    a {
-      color: #0066cc;
-    }
-    .spaced-photo {
-      width: 100%;
-      border-radius: 8px;
-      margin: 30px 0;
-      display: block;
+      background-color: #2d4a26;
+      color: white;
     }
   </style>
 </head>
 <body>
+
   <header>
     <h1>Blue Ridge Cemetery</h1>
+    <p>Preserving the Past, Honoring the Future</p>
   </header>
 
-  <main>
-    <section>
-      <h2>About the Cemetery</h2>
+  <nav>
+    <a href="#burial-info">Burial Info</a>
+    <a href="#funding">Funding</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="burial-info">
+    <h2>Burial Information</h2>
+    <p>Burial plots are available. Contact information is available below to help with those in need.</p>
+  </section>
+
+  <section id="funding">
+    <h2>Funding</h2>
+    <p>
+      The Blue Ridge Cemetery is <strong>not owned or funded by the city</strong>. It is lovingly maintained by the generous support of individuals in the community.
+    </p>
+    <p>
+      Each year, on the <strong>first Sunday in May</strong>, the <strong>Cemetery Association meets</strong> to elect board members, discuss new and old business, and review the cemetery's financial information. This weekend is also known as <strong>Decoration Weekend</strong>.
+    </p>
+    <p>
+      <strong>Donations</strong> can be mailed to:<br>
+      <strong>Blue Ridge Cemetery Incorporated</strong><br>
+      PO Box 122<br>
+      Blue Ridge, TX 75424
+    </p>
+    <p>
+      Starting in 2025, <strong>First Baptist Church</strong>, located less than a quarter mile from the cemetery, has graciously offered to receive <strong>online donations</strong> on behalf of the cemetery at no cost.
+    </p>
+    <blockquote>
       <p>
-        Blue Ridge Cemetery is a peaceful and historic resting place nestled in the heart of Blue Ridge, Texas.
-        With roots going back generations, the grounds are maintained with care and reverence by a board of directors and members of the Blue Ridge community.
+        "We are happy to help the cemetery by offering our website as a portal for online giving. We are already set up, and those donations can now be marked specifically for the cemetery in our giving portal. In fact, it is a privilege for us, as so many of our former members have been laid to rest on that very hill."
       </p>
-    </section>
+      <footer>— Pastor Shawn Bailey</footer>
+    </blockquote>
+  </section>
 
-    <img src="photo1.jpg" alt="Scenic view 1" class="spaced-photo" />
-
-    <section>
-      <h2>Location</h2>
-      <p>
-        The cemetery stretches between State Highway 78 and Business 78 and sits on the North side of FM 981.
-      </p>
-    </section>
-
-    <img src="photo2.jpg" alt="Scenic view 2" class="spaced-photo" />
-
-    <section>
-      <h2>Burial Information</h2>
-      <p>
-        Burial plots may be available. Contact the cemetery administrator for more information on availability and guidelines.
-      </p>
-    </section>
-
-    <img src="photo3.jpg" alt="Scenic view 3" class="spaced-photo" />
-
-    <section>
-      <h2>Contact</h2>
-      <p>Robert Todd</p>
-      <p>Phone: (972) 977-4725</p>
-      <p>
-        Facebook: <a href="https://www.facebook.com/share/16FrHLWRWu/" target="_blank">Blue Ridge Cemetery on Facebook</a>
-      </p>
-    </section>
-
-    <img src="photo4.jpg" alt="Scenic view 4" class="spaced-photo" />
-  </main>
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>For inquiries about burial plots, donations, or cemetery association matters, please email or write to:</p>
+    <p>
+      <strong>Blue Ridge Cemetery Incorporated</strong><br>
+      PO Box 122<br>
+      Blue Ridge, TX 75424
+    </p>
+    <p>Email: <a href="mailto:info@blueridgecemetery.org">info@blueridgecemetery.org</a></p>
+  </section>
 
   <footer>
-    &copy; 2025 Blue Ridge Cemetery Association
+    <p>&copy; 2025 Blue Ridge Cemetery. All rights reserved.</p>
   </footer>
+
 </body>
 </html>
